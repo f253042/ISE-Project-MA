@@ -1,0 +1,45 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="4.css">
+          <script src="5.js"></script>
+        <title>Room Change</title>
+    </head>
+    <body>
+        <header>
+                <nav class="nav">
+                    <div ></div>
+                    </div>
+                    <ul class="menu">
+                <li><a href="Homepage.html"><h3>Home</h3></a></li>
+                <li><a href="Dashboard.html" target="_blank"><h3>Dashboard</h3></a></li>
+                 <li><a href="Room Management.html" target="_blank"><h3>Contact Us</h3></a></li>
+                 </ul>
+                </nav>
+        </header>
+        <main>
+            <h2><a href="Dashboard Student.html" style="color: black;text-decoration: none;"><h3>&#9664;</a></h2>
+    <h1 class="h5">Room Change</h1>
+      <div class="form" style="text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+       <form id="roomChangeForm">
+        <label>Student Name:</label>
+            <input type="text" id="studentName" name="studentName" style="border-radius: 10px;"><br><br>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roll No:</label>
+            <input type="text" id="rollNo" name="rollNo" style="border-radius: 10px;"><br><br>
+            <label>&nbsp;&nbsp;&nbsp;Current Hall:</label>
+            <input type="text" id="currentHall" name="currentHall" style="border-radius: 10px;"><br><br>
+            <label>Current Room:</label>
+            <input type="text" id="currentRoom" name="currentRoom" style="border-radius: 10px;"><br><br>
+             <label>&nbsp;&nbsp;&nbsp;Desired Hall:</label>
+            <input type="text" id="desiredHall"name="desiredHall" style="border-radius: 10px;"><br><br>
+            <label>&nbsp;Desired Room:</label>
+            <input type="text" id="desiredRoom"name="desiredRoom" style="border-radius: 10px;"><br><br>
+            <label style="vertical-align: 140px;">Reason to Change:</label>
+            <textarea rows="10" cols="23" id="reason" style="border-radius: 10px;"></textarea><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Submit" onclick="submitRoomChange()" style="background-color: black;color: aliceblue;">
+        </form>
+    </div>
+        </main>
+  <p id="message"></p>
+</div>
+    </body>
+</html>
