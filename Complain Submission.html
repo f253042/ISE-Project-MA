@@ -1,0 +1,42 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="4.css">
+        <title>Complaint Submission</title>
+    </head>
+    <body>
+        <header>
+                <nav class="nav">
+                    <div ></div>
+                    </div>
+                    <ul class="menu">
+                <li><a href="Homepage.html"><h3>Home</h3></a></li>
+                <li><a href="Dashboard.html" target="_blank"><h3>Dashboard</h3></a></li>
+                 <li><a href="Room Management.html" target="_blank"><h3>Contact Us</h3></a></li>
+                 </ul>
+                </nav>
+        </header>
+        <main>
+            <h2><a href="Dashboard Student.html" style="color: black;text-decoration: none;"><h3>&#9664;</h3></a></h2>
+    <h1 class="h5">Complaint Submission</h1>
+      <div class="form" style="text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+       <form id="complaintForm">
+            <label>Student Name:</label>
+            <input type="text" id="name" name="name" style="border-radius: 10px;"><br><br>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roll No:</label>
+            <input type="text" id="rollNo"name="rollNo" style="border-radius: 10px;"><br><br>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Batch:</label>
+            <input type="text" id="batch"name="batch" style="border-radius: 10px;"><br><br>
+            <label style="vertical-align: 140px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Complain:</label>
+            <textarea rows="10" cols="23" id="complaintText" style="border-radius: 10px;"></textarea><br><br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Submit" onclick="submitComplaint()" style="background-color: black;color: aliceblue;">
+        </form>
+        <p id="message"></p>
+    </div>
+        </main>
+  
+</div>
+
+ <script src="storage.js"></script>
+    <script src="5.js"></script>
+    </body>
+</html>
